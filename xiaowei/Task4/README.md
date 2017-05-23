@@ -3,8 +3,10 @@
 
 ### 父元素的居中
 
+* 父元素需要设置为absolute
+
 ```css
-position: relative;
+position: absolute;
 left: 50%;
 top: 50%;
 transform: translate(-50%,-50%);
