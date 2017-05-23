@@ -3,7 +3,8 @@
 
 ### 父元素的居中
 
-* 父元素需要设置为absolute
+* 父元素需要设置为absolute,设置为relative会出错，除非声明body的高度
+* [relative设置为百分比](http://acgtofe.com/posts/2014/06/percentage-in-css)：当一个元素的高度使用百分比值，如果其包含块没有明确的高度定义（也就是说，取决于内容高度），且这个元素不是绝对定位，则该百分比值等同于auto
 
 ```css
 position: absolute;
